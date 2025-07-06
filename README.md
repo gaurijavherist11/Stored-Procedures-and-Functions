@@ -24,17 +24,11 @@ CALL GetCustomerOrders(1);
 2. GetOrderSummaryByCity()
 Returns the total number of orders and total payments grouped by city.
 
-sql
-Copy
-Edit
 CALL GetOrderSummaryByCity();
 🔢 Functions
 1. GetTotalPaidByCustomer(IN customer_id INT)
 Returns the total amount paid by a specific customer.
 
-sql
-Copy
-Edit
 SELECT GetTotalPaidByCustomer(1);
 2. GetProductTotalSales(IN product_id INT)
 Returns the total revenue generated from a product.
