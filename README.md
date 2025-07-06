@@ -16,20 +16,22 @@ This project demonstrates how to use **stored procedures** and **functions** in 
 
 ## 🔁 Stored Procedures
 
+
+
 ### 1. `GetCustomerOrders(IN customer_id INT)`
 Returns all order and payment details for a specific customer.
-
 ```sql
 CALL GetCustomerOrders(1);
+
 2. GetOrderSummaryByCity()
 Returns the total number of orders and total payments grouped by city.
-
 CALL GetOrderSummaryByCity();
+
 🔢 Functions
 1. GetTotalPaidByCustomer(IN customer_id INT)
 Returns the total amount paid by a specific customer.
-
 SELECT GetTotalPaidByCustomer(1);
+
 2. GetProductTotalSales(IN product_id INT)
 Returns the total revenue generated from a product.
 
